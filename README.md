@@ -8,7 +8,7 @@ pip install java-features
 ```
 ### Using PIP via Github
 ```
-pip install git+https://github.com/tomytw/java-features.git@0.0.1
+pip install git+https://github.com/tomytw/java-features.git@0.1.0
 ```
 
 # Usage
