@@ -14,7 +14,7 @@ if os.path.isfile(requirement_path):
 
 setup(
 	name = 'java_features',
-	version = '0.1.0',
+	version = '0.1.1',
 	description = 'This package contains java code similarity features calculation',
 	long_description=long_description,
 	long_description_content_type="text/markdown",

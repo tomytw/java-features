@@ -315,10 +315,6 @@ def create_features_result_df(main_codes_df, same_segment_nerf = False, minimal_
     if same_segment_nerf:
         duplicate_segments_counter = dup_segment_counter(main_codes_df)
         all_duplicate_line_sequences = filter_dup_segment(main_codes_df, duplicate_segments_counter, minimal_pair_have_same_segment)
-    if(same_segment_nerf):
-        print('No Duplicate Sequence')
-    else:
-        print('Not using Duplicate Nerf')
 
     features_data = []
     # start = time.time()
